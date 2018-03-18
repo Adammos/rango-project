@@ -11,15 +11,18 @@ def populate():
 
     add_page(cat=python_cat,
             title="Official Python Tutorial",
-            url="http://docs.python.org/2/tutorial/")
+            url="http://docs.python.org/2/tutorial/",
+            views=3)
 
     add_page(cat=python_cat, 
             title="How to Think like a computer Scientist",
-            url="http://www.greenteapress.com/thinkpython/")
+            url="http://www.greenteapress.com/thinkpython/",
+            views=4)
 
     add_page(cat=python_cat,
             title="Learn Python in 10 minutes",
-            url="http://www.korokithakis.net/tutorials/python/")
+            url="http://www.korokithakis.net/tutorials/python/",
+            views=1)
 
     django_cat = add_cat("Django",32,64)
 
